@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 65px;
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.gamecontainer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.box {
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.box:hover {
+    background-color: rgb(211, 189, 232);
+}
+
+.gameinfo {
+    padding: 0 34px;
+}
+
+.imgbox img {
+    display: none;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
